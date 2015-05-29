@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+    <my.android.lib.ImageTextLinearLayout
+        android:id="@+id/ll_information_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        app:imageSrc="@drawable/img_share_weixin"
+        app:text="公告消息"/>
+
+    <my.android.lib.ImageTextLinearLayout
+        android:id="@+id/ll_information_exception"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        app:imageSrc="@drawable/img_share_weixin"
+        app:text="异常消息"/>
+
+    <my.android.lib.ImageTextLinearLayout
+        android:id="@+id/ll_information_arrival"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        app:imageSrc="@drawable/img_share_weixin"
+        app:text="到货预告"/>
+
+    <my.android.lib.ImageTextLinearLayout
+        android:id="@+id/ll_information_message"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        app:imageSrc="@drawable/img_share_weixin"
+        app:text="短信消息"/>
+
+
+</LinearLayout>
